@@ -1,7 +1,9 @@
 const shortid = require("shortid");
 import { BsEmojiSmile } from "react-icons/bs";
 import { FaVectorSquare } from "react-icons/fa";
-import { IoCogSharp, IoPeople } from "react-icons/io5";
+import { FaCalendarDays } from "react-icons/fa6";
+import { GoGoal } from "react-icons/go";
+import { IoAlarmOutline, IoCogSharp, IoFileTrayFullOutline, IoPeople } from "react-icons/io5";
 import { MdEmojiPeople } from "react-icons/md";
 export const sideHeaderInfo = [
   {
@@ -14,7 +16,7 @@ export const sideHeaderInfo = [
     id: shortid.generate(),
     icon: <IoPeople />,
     name: "Employee",
-    to: "/",
+    to: "#",
     links: [
       {
         id: shortid.generate(),
@@ -38,105 +40,105 @@ export const sideHeaderInfo = [
   },
   {
     id: shortid.generate(),
-    icon: <IoPeople />,
+    icon: <IoAlarmOutline />,
     name: "Attendance",
-    to: "/attendance",
+    to: "#",
     links: [
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Attendance-1",
-        to: "/",
+        to: "/attendance-1",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Attendance-2",
-        to: "/",
+        to: "/attendance",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Attendance-3",
-        to: "/",
+        to: "/attendance-3",
       },
     ],
   },
   {
     id: shortid.generate(),
-    icon: <IoPeople />,
+    icon: <FaCalendarDays />,
     name: "Time off",
-    to: "/time-off",
+    to: "#",
     links: [
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Time off-1",
-        to: "/",
+        to: "/time-off-1",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Time off-2",
-        to: "/",
+        to: "/time-off-3",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Time off-3",
-        to: "/",
+        to: "/time-off-3",
       },
     ],
   },
   {
     id: shortid.generate(),
-    icon: <IoPeople />,
+    icon: <IoFileTrayFullOutline />,
     name: "Payroll",
-    to: "/payroll",
+    to: "#",
     links: [
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Payroll-1",
-        to: "/",
+        to: "/payroll-1",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Payroll-2",
-        to: "/",
+        to: "/payroll-2",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Payroll-3",
-        to: "/",
+        to: "/payroll-3",
       },
     ],
   },
   {
     id: shortid.generate(),
-    icon: <IoPeople />,
+    icon: <GoGoal />,
     name: "Goals",
-    to: "/goals",
+    to: "#",
     links: [
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Goals-1",
-        to: "/",
+        to: "/goals-1",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Goals-2",
-        to: "/",
+        to: "/goals-2",
       },
       {
         id: shortid.generate(),
         icon: <IoPeople />,
         name: "Goals-3",
-        to: "/",
+        to: "/goals-3",
       },
     ],
   },
